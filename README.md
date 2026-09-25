@@ -9,15 +9,15 @@ One combined plan — do each DSA topic, then the paired OOP topic, in order.
 
 ---
 
-## Step 1 — Java Foundations + Complexity → then OOP: Core Pillars
+## Phase 0: Java Foundations Needed for DSA + 1. Time & Space Complexity → then OOP 1: Core Pillars
 
 **DSA:**
-- ✅ Arrays and multi-dimensional arrays
-- ✅ Strings and StringBuilder
-- ✅ Functions/methods, pass by value
-- ✅ Basic recursion (factorial, Fibonacci)
-- ✅ ArrayList, HashMap, HashSet basics
-- ✅ Scanner/BufferedReader for input
+- [✅] Arrays and multi-dimensional arrays
+- [✅] Strings and StringBuilder
+- [✅] Functions/methods, pass by value
+- [✅] Basic recursion (factorial, Fibonacci)
+- [✅] ArrayList, HashMap, HashSet basics
+- [✅] Scanner/BufferedReader for input
 - [ ] Big-O, Big-Omega, Big-Theta
 - [ ] Best/worst/average case
 - [ ] Analyzing loops and recursion complexity
@@ -32,7 +32,7 @@ One combined plan — do each DSA topic, then the paired OOP topic, in order.
 - [ ] Complexity of binary search
 - [ ] Complexity of common sorting algorithms (theory)
 
-**➡ Now do OOP: Core Pillars**
+**➡ Now do OOP 1: Core Pillars**
 - [ ] Class vs Object
 - [ ] Encapsulation (private fields + getters/setters)
 - [ ] Inheritance (extends, super keyword)
@@ -52,7 +52,7 @@ One combined plan — do each DSA topic, then the paired OOP topic, in order.
 
 ---
 
-## Step 2 — Arrays → then OOP: Constructors & Keywords
+## 2. Arrays → then OOP 2: Constructors & Keywords
 
 **DSA:**
 - [ ] Traversal, insertion, deletion
@@ -81,7 +81,7 @@ One combined plan — do each DSA topic, then the paired OOP topic, in order.
 - [ ] Container With Most Water
 - [ ] Find the Duplicate Number
 
-**➡ Now do OOP: Constructors & Keywords**
+**➡ Now do OOP 2: Constructors & Keywords**
 - [ ] Default vs parameterized constructors
 - [ ] Constructor overloading
 - [ ] this vs super
@@ -99,7 +99,7 @@ One combined plan — do each DSA topic, then the paired OOP topic, in order.
 
 ---
 
-## Step 3 — Searching & Sorting → then OOP: Exception Handling
+## 3. Searching & Sorting → then OOP 3: Exception Handling
 
 **DSA:**
 - [ ] Binary search + variations (first/last occurrence, rotated array)
@@ -120,7 +120,7 @@ One combined plan — do each DSA topic, then the paired OOP topic, in order.
 - [ ] Kth Largest Element in an Array
 - [ ] Aggressive Cows (GfG)
 
-**➡ Now do OOP: Exception Handling**
+**➡ Now do OOP 3: Exception Handling**
 - [ ] try-catch-finally
 - [ ] Checked vs unchecked exceptions
 - [ ] Custom exceptions
@@ -137,7 +137,7 @@ One combined plan — do each DSA topic, then the paired OOP topic, in order.
 
 ---
 
-## Step 4 — Strings → then OOP: File Handling
+## 4. Strings → then OOP 4: File Handling
 
 **DSA:**
 - [ ] Basic string manipulation
@@ -159,7 +159,7 @@ One combined plan — do each DSA topic, then the paired OOP topic, in order.
 - [ ] Valid Parentheses
 - [ ] Count and Say
 
-**➡ Now do OOP: File Handling**
+**➡ Now do OOP 4: File Handling**
 - [ ] Reading a file with BufferedReader/Scanner
 - [ ] Writing to a file with FileWriter
 - [ ] try-with-resources
@@ -174,7 +174,7 @@ One combined plan — do each DSA topic, then the paired OOP topic, in order.
 
 ---
 
-## Step 5 — Recursion & Backtracking → then OOP: Collections Framework
+## 5. Recursion & Backtracking → then OOP 5: Java Collections Framework
 
 **DSA:**
 - [ ] Recursion tree/stack thinking
@@ -197,7 +197,7 @@ One combined plan — do each DSA topic, then the paired OOP topic, in order.
 - [ ] Letter Combinations of a Phone Number
 - [ ] Generate Parentheses
 
-**➡ Now do OOP: Java Collections Framework**
+**➡ Now do OOP 5: Java Collections Framework**
 - [ ] List (ArrayList, LinkedList)
 - [ ] Set (HashSet, TreeSet)
 - [ ] Map (HashMap, TreeMap)
@@ -215,7 +215,7 @@ One combined plan — do each DSA topic, then the paired OOP topic, in order.
 
 ---
 
-## Step 6 — Linked List → then OOP: Design Basics (SOLID)
+## 6. Linked List → then OOP 6: Design Basics (SOLID)
 
 **DSA:**
 - [ ] Singly, doubly, circular linked list
@@ -238,7 +238,7 @@ One combined plan — do each DSA topic, then the paired OOP topic, in order.
 - [ ] Intersection of Two Linked Lists
 - [ ] Flatten a Multilevel Doubly Linked List
 
-**➡ Now do OOP: Design Basics (SOLID intro)**
+**➡ Now do OOP 6: Design Basics (SOLID intro)**
 - [ ] Single Responsibility Principle (concept)
 - [ ] Open/Closed Principle (concept)
 - [ ] Composition vs Inheritance
@@ -256,7 +256,7 @@ One combined plan — do each DSA topic, then the paired OOP topic, in order.
 
 ---
 
-## Step 7 — Stack & Queue
+## 7. Stack & Queue
 
 - [ ] Stack using array/linked list
 - [ ] Queue, circular queue, deque
@@ -305,7 +305,7 @@ One combined plan — do each DSA topic, then the paired OOP topic, in order.
 
 ---
 
-## Step 9 — Heaps / Priority Queue
+## 9. Heaps / Priority Queue
 
 - [ ] Min-heap, max-heap concept
 - [ ] PriorityQueue in Java
@@ -325,7 +325,7 @@ One combined plan — do each DSA topic, then the paired OOP topic, in order.
 
 ---
 
-## Step 10 — Hashing
+## 10. Hashing
 
 - [ ] HashMap/HashSet internal working (basic idea)
 - [ ] Frequency counting pattern
@@ -344,7 +344,7 @@ One combined plan — do each DSA topic, then the paired OOP topic, in order.
 
 ---
 
-## Step 11 — Graphs
+## 11. Graphs
 
 - [ ] Graph representation (adjacency list/matrix)
 - [ ] BFS, DFS
@@ -371,7 +371,7 @@ One combined plan — do each DSA topic, then the paired OOP topic, in order.
 
 ---
 
-## Step 12 — Dynamic Programming
+## 12. Dynamic Programming
 
 - [ ] 1D DP (climbing stairs, house robber)
 - [ ] 2D DP (grids, knapsack)
@@ -399,7 +399,7 @@ One combined plan — do each DSA topic, then the paired OOP topic, in order.
 
 ---
 
-## Step 13 — Greedy Algorithms
+## 13. Greedy Algorithms
 
 - [ ] Greedy choice property (when it works vs doesn't)
 - [ ] Interval scheduling
@@ -418,7 +418,7 @@ One combined plan — do each DSA topic, then the paired OOP topic, in order.
 
 ---
 
-## Step 14 — Tries & Bit Manipulation (do last)
+## 14. Tries & Bit Manipulation (do last)
 
 - [ ] Trie insert/search/startsWith
 - [ ] AND/OR/XOR tricks
