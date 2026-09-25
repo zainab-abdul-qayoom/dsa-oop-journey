@@ -12,12 +12,12 @@ One combined plan — do each DSA topic, then the paired OOP topic, in order.
 ## Step 1 — Java Foundations + Complexity → then OOP: Core Pillars
 
 **DSA:**
-- [ ] Arrays and multi-dimensional arrays
-- [ ] Strings and StringBuilder
-- [ ] Functions/methods, pass by value
-- [ ] Basic recursion (factorial, Fibonacci)
-- [ ] ArrayList, HashMap, HashSet basics
-- [ ] Scanner/BufferedReader for input
+- ✅ Arrays and multi-dimensional arrays
+- ✅ Strings and StringBuilder
+- ✅ Functions/methods, pass by value
+- ✅ Basic recursion (factorial, Fibonacci)
+- ✅ ArrayList, HashMap, HashSet basics
+- ✅ Scanner/BufferedReader for input
 - [ ] Big-O, Big-Omega, Big-Theta
 - [ ] Best/worst/average case
 - [ ] Analyzing loops and recursion complexity
