@@ -1,47 +1,60 @@
 # DSA + OOP Roadmap
-A job-ready, internship-focused plan.
+One combined plan — do each DSA topic, then the paired OOP topic, in order.
 
-## How to Use This Roadmap
-- Follow phases strictly in order — later topics assume fluency in earlier ones.
-- For every topic: read/watch the concept once, then immediately solve the listed problems.
-- Stuck 25–30 min on a problem? Look at the *approach* only (not full code), then reattempt yourself.
-- Keep a tracker: Topic | Problems solved | Confidence (1–5) | Date.
-- Revise a topic only when you can't solve a medium problem from it in under 20 minutes.
-- Target: 1 topic every 4–7 days at 1.5–2 hrs/day. Full DSA pass in 3–4 months.
-- Do OOP and DSA in **parallel**, not sequentially.
+## How to Use
+- Follow the order below. Don't skip ahead.
+- For every topic: watch/read the concept once, then immediately solve the listed problems.
+- Stuck 25–30 min? Look at the *approach* only, not the full code, then retry yourself.
+- Move to the next step only once you can solve ~70% of a topic's problems without hints.
 
 ---
 
-# PART 1: DATA STRUCTURES & ALGORITHMS
+## Step 1 — Java Foundations + Complexity → then OOP: Core Pillars
 
-## Phase 0: Java Foundations Needed for DSA
+**DSA:**
 - [ ] Arrays and multi-dimensional arrays
 - [ ] Strings and StringBuilder
 - [ ] Functions/methods, pass by value
 - [ ] Basic recursion (factorial, Fibonacci)
 - [ ] ArrayList, HashMap, HashSet basics
 - [ ] Scanner/BufferedReader for input
-
-**Resources:** [Java Collections crash course](https://www.youtube.com/watch?v=rRi9VmcRs8Y) · [Kunal Kushwaha Java Playlist](https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ) (Collections + Recursion sections only)
-
-*Skip file/exception handling for now — covered in OOP track.*
-
-## 1. Time & Space Complexity
 - [ ] Big-O, Big-Omega, Big-Theta
 - [ ] Best/worst/average case
 - [ ] Analyzing loops and recursion complexity
 - [ ] Space complexity of recursive calls
 
-**Resources:** [Striver's Complexity video](https://www.youtube.com/watch?v=FPu9Uld7W-E) · [takeUforward A2Z Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2)
+**Resources:** [Java Collections crash course](https://www.youtube.com/watch?v=rRi9VmcRs8Y) · [Kunal Kushwaha Java Playlist](https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ) · [Striver Complexity video](https://www.youtube.com/watch?v=FPu9Uld7W-E) · [takeUforward A2Z Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2)
 
-**Practice (5, GfG quizzes):**
+**Practice (GfG quizzes):**
 - [ ] Time complexity of 5 given code snippets
 - [ ] Analyze complexity of nested loops (own code)
 - [ ] Recursive Fibonacci vs iterative
 - [ ] Complexity of binary search
 - [ ] Complexity of common sorting algorithms (theory)
 
-## 2. Arrays
+**➡ Now do OOP: Core Pillars**
+- [ ] Class vs Object
+- [ ] Encapsulation (private fields + getters/setters)
+- [ ] Inheritance (extends, super keyword)
+- [ ] Polymorphism (overloading vs overriding)
+- [ ] Abstraction (abstract classes vs interfaces)
+
+**Resources:** [Kunal Kushwaha OOP Playlist](https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ) · [GfG OOP in Java](https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/)
+
+**Practice (write & run locally):**
+- [ ] Bank Account class with encapsulation
+- [ ] Shape hierarchy (Shape → Circle, Square) using inheritance
+- [ ] Overload a method 3 different ways
+- [ ] Override toString() and equals()
+- [ ] Payable interface implemented by Employee and Freelancer
+- [ ] Abstract class vs interface (written explanation)
+- [ ] Animal → Dog/Cat polymorphism with speak()
+
+---
+
+## Step 2 — Arrays → then OOP: Constructors & Keywords
+
+**DSA:**
 - [ ] Traversal, insertion, deletion
 - [ ] Two-pointer technique
 - [ ] Sliding window
@@ -51,7 +64,7 @@ A job-ready, internship-focused plan.
 
 **Resources:** [Striver Array Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2) · [NeetCode Arrays & Hashing](https://neetcode.io/roadmap)
 
-**Practice (15, LeetCode):**
+**Practice (LeetCode):**
 - [ ] Two Sum
 - [ ] Best Time to Buy and Sell Stock
 - [ ] Maximum Subarray (Kadane's)
@@ -68,14 +81,34 @@ A job-ready, internship-focused plan.
 - [ ] Container With Most Water
 - [ ] Find the Duplicate Number
 
-## 3. Searching & Sorting
+**➡ Now do OOP: Constructors & Keywords**
+- [ ] Default vs parameterized constructors
+- [ ] Constructor overloading
+- [ ] this vs super
+- [ ] static keyword (variables, methods, blocks)
+- [ ] final keyword
+
+**Resources:** [GfG Constructors in Java](https://www.geeksforgeeks.org/constructors-in-java/)
+
+**Practice (write & run locally):**
+- [ ] Class with 3 overloaded constructors
+- [ ] Use 'this' to resolve naming conflict
+- [ ] Use 'super' to call parent constructor
+- [ ] Static counter tracking objects created
+- [ ] Why is main() static? (written)
+
+---
+
+## Step 3 — Searching & Sorting → then OOP: Exception Handling
+
+**DSA:**
 - [ ] Binary search + variations (first/last occurrence, rotated array)
 - [ ] Merge sort, quick sort (understand + code once)
 - [ ] Binary search on answer technique
 
 **Resources:** [Striver Binary Search Playlist](https://www.youtube.com/playlist?list=PLgUwDviBIf0rABuVEXm9wm57xVfQDcU3n)
 
-**Practice (10, LeetCode + GfG):**
+**Practice (LeetCode + GfG):**
 - [ ] Binary Search
 - [ ] Search in Rotated Sorted Array
 - [ ] Find First and Last Position of Element
@@ -87,7 +120,26 @@ A job-ready, internship-focused plan.
 - [ ] Kth Largest Element in an Array
 - [ ] Aggressive Cows (GfG)
 
-## 4. Strings
+**➡ Now do OOP: Exception Handling**
+- [ ] try-catch-finally
+- [ ] Checked vs unchecked exceptions
+- [ ] Custom exceptions
+- [ ] throw vs throws
+
+**Resources:** [GfG Exception Handling](https://www.geeksforgeeks.org/exceptions-in-java/)
+
+**Practice (write & run locally):**
+- [ ] Handle ArithmeticException in a division method
+- [ ] Custom InvalidAgeException
+- [ ] Method throwing checked exception, handled in caller
+- [ ] Use finally to close a resource
+- [ ] Multi-catch handling 2 exception types
+
+---
+
+## Step 4 — Strings → then OOP: File Handling
+
+**DSA:**
 - [ ] Basic string manipulation
 - [ ] Pattern matching intuition
 - [ ] Anagrams, palindromes
@@ -95,7 +147,7 @@ A job-ready, internship-focused plan.
 
 **Resources:** [Striver String Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2)
 
-**Practice (10, LeetCode):**
+**Practice (LeetCode):**
 - [ ] Valid Anagram
 - [ ] Valid Palindrome
 - [ ] Longest Palindromic Substring
@@ -107,7 +159,24 @@ A job-ready, internship-focused plan.
 - [ ] Valid Parentheses
 - [ ] Count and Say
 
-## 5. Recursion & Backtracking
+**➡ Now do OOP: File Handling**
+- [ ] Reading a file with BufferedReader/Scanner
+- [ ] Writing to a file with FileWriter
+- [ ] try-with-resources
+
+**Resources:** [GfG File Handling](https://www.geeksforgeeks.org/file-handling-in-java/)
+
+**Practice (write & run locally):**
+- [ ] Read a text file and print each line
+- [ ] Write user input to a file
+- [ ] Append to an existing file
+- [ ] Count number of words in a file
+
+---
+
+## Step 5 — Recursion & Backtracking → then OOP: Collections Framework
+
+**DSA:**
 - [ ] Recursion tree/stack thinking
 - [ ] Base case design
 - [ ] Subsets/permutations pattern
@@ -115,7 +184,7 @@ A job-ready, internship-focused plan.
 
 **Resources:** [Striver Recursion Playlist](https://www.youtube.com/playlist?list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9)
 
-**Practice (11, LeetCode):**
+**Practice (LeetCode):**
 - [ ] Subsets
 - [ ] Subsets II
 - [ ] Permutations
@@ -128,7 +197,27 @@ A job-ready, internship-focused plan.
 - [ ] Letter Combinations of a Phone Number
 - [ ] Generate Parentheses
 
-## 6. Linked List
+**➡ Now do OOP: Java Collections Framework**
+- [ ] List (ArrayList, LinkedList)
+- [ ] Set (HashSet, TreeSet)
+- [ ] Map (HashMap, TreeMap)
+- [ ] Iterator
+- [ ] Comparable vs Comparator
+
+**Resources:** [Java Collections crash course](https://www.youtube.com/watch?v=rRi9VmcRs8Y)
+
+**Practice (write & run locally):**
+- [ ] Sort list of Student objects by marks (Comparable)
+- [ ] Sort same list by name (Comparator)
+- [ ] Remove duplicates using HashSet
+- [ ] Word frequency using HashMap
+- [ ] Iterate a Map using entrySet()
+
+---
+
+## Step 6 — Linked List → then OOP: Design Basics (SOLID)
+
+**DSA:**
 - [ ] Singly, doubly, circular linked list
 - [ ] Fast & slow pointer (cycle detection)
 - [ ] Reversal (iterative + recursive)
@@ -136,7 +225,7 @@ A job-ready, internship-focused plan.
 
 **Resources:** [Striver Linked List Playlist](https://www.youtube.com/playlist?list=PLgUwDviBIf0q8Hkd7bK2Bpryj2xVJk8Vk)
 
-**Practice (11, LeetCode):**
+**Practice (LeetCode):**
 - [ ] Reverse Linked List
 - [ ] Linked List Cycle
 - [ ] Merge Two Sorted Lists
@@ -149,7 +238,26 @@ A job-ready, internship-focused plan.
 - [ ] Intersection of Two Linked Lists
 - [ ] Flatten a Multilevel Doubly Linked List
 
-## 7. Stack & Queue
+**➡ Now do OOP: Design Basics (SOLID intro)**
+- [ ] Single Responsibility Principle (concept)
+- [ ] Open/Closed Principle (concept)
+- [ ] Composition vs Inheritance
+- [ ] Interview Qs: diamond problem, why no multiple inheritance, interface default methods
+
+**Resources:** [SOLID principles simplified](https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/)
+
+**Practice (written):**
+- [ ] Why doesn't Java support multiple inheritance via classes?
+- [ ] Refactor a class violating SRP into two smaller classes
+- [ ] Explain composition: Car has-a Engine
+- [ ] List 5 OOP interview questions + your own answers
+
+**This is the last core OOP topic — OOP is done from here. Everything below is DSA only.**
+
+---
+
+## Step 7 — Stack & Queue
+
 - [ ] Stack using array/linked list
 - [ ] Queue, circular queue, deque
 - [ ] Monotonic stack pattern
@@ -157,7 +265,7 @@ A job-ready, internship-focused plan.
 
 **Resources:** [Striver Stack & Queue Playlist](https://www.youtube.com/playlist?list=PLgUwDviBIf0rQ6WPHfliwygZzTMDx7WCX)
 
-**Practice (10, LeetCode):**
+**Practice (LeetCode):**
 - [ ] Valid Parentheses
 - [ ] Min Stack
 - [ ] Evaluate Reverse Polish Notation
@@ -169,7 +277,10 @@ A job-ready, internship-focused plan.
 - [ ] Asteroid Collision
 - [ ] Trapping Rain Water (stack approach)
 
-## 8. Trees (Binary Tree + BST)
+---
+
+## Step 8 — Trees (Binary Tree + BST)
+
 - [ ] Traversals: inorder, preorder, postorder, level order
 - [ ] Height, diameter, balanced tree check
 - [ ] BST insert/delete/search
@@ -178,7 +289,7 @@ A job-ready, internship-focused plan.
 
 **Resources:** [Striver Tree Playlist](https://www.youtube.com/playlist?list=PLgUwDviBIf0q8Hkd7bK2Bpryj2xVJk8Vk) · [Striver BST Playlist](https://www.youtube.com/playlist?list=PLgUwDviBIf0pMFMWuuvDNMAkoQFi-h0ZF)
 
-**Practice (12, LeetCode):**
+**Practice (LeetCode):**
 - [ ] Inorder/Preorder/Postorder Traversal
 - [ ] Level Order Traversal
 - [ ] Maximum Depth of Binary Tree
@@ -192,7 +303,10 @@ A job-ready, internship-focused plan.
 - [ ] Serialize and Deserialize Binary Tree
 - [ ] Path Sum II
 
-## 9. Heaps / Priority Queue
+---
+
+## Step 9 — Heaps / Priority Queue
+
 - [ ] Min-heap, max-heap concept
 - [ ] PriorityQueue in Java
 - [ ] Heapify
@@ -200,7 +314,7 @@ A job-ready, internship-focused plan.
 
 **Resources:** [Striver Heap Playlist](https://www.youtube.com/playlist?list=PLgUwDviBIf0rF1w2Koyh78zafB0Y_DgV0)
 
-**Practice (7, LeetCode):**
+**Practice (LeetCode):**
 - [ ] Kth Largest Element in an Array
 - [ ] Top K Frequent Elements
 - [ ] Find Median from Data Stream
@@ -209,14 +323,17 @@ A job-ready, internship-focused plan.
 - [ ] K Closest Points to Origin
 - [ ] Last Stone Weight
 
-## 10. Hashing
+---
+
+## Step 10 — Hashing
+
 - [ ] HashMap/HashSet internal working (basic idea)
 - [ ] Frequency counting pattern
 - [ ] Hashing for pair/subarray problems
 
 **Resources:** [GfG Hashing basics](https://www.geeksforgeeks.org/hashing-data-structure/)
 
-**Practice (7, LeetCode):**
+**Practice (LeetCode):**
 - [ ] Two Sum
 - [ ] Group Anagrams (revisit)
 - [ ] Longest Consecutive Sequence
@@ -225,7 +342,10 @@ A job-ready, internship-focused plan.
 - [ ] Ransom Note
 - [ ] Isomorphic Strings
 
-## 11. Graphs
+---
+
+## Step 11 — Graphs
+
 - [ ] Graph representation (adjacency list/matrix)
 - [ ] BFS, DFS
 - [ ] Topological sort (Kahn's + DFS)
@@ -235,7 +355,7 @@ A job-ready, internship-focused plan.
 
 **Resources:** [Striver Graph Playlist](https://www.youtube.com/playlist?list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn)
 
-**Practice (12, LeetCode):**
+**Practice (LeetCode):**
 - [ ] Number of Islands
 - [ ] Clone Graph
 - [ ] Course Schedule
@@ -249,7 +369,10 @@ A job-ready, internship-focused plan.
 - [ ] Redundant Connection (Union-Find)
 - [ ] Cheapest Flights Within K Stops
 
-## 12. Dynamic Programming
+---
+
+## Step 12 — Dynamic Programming
+
 - [ ] 1D DP (climbing stairs, house robber)
 - [ ] 2D DP (grids, knapsack)
 - [ ] String DP (LCS, edit distance)
@@ -258,7 +381,7 @@ A job-ready, internship-focused plan.
 
 **Resources:** [Striver DP Playlist](https://www.youtube.com/playlist?list=PLgUwDviBIf0rAuz8tVcM0AymmhTRsfaLU)
 
-**Practice (14, LeetCode + GfG):**
+**Practice (LeetCode + GfG):**
 - [ ] Climbing Stairs
 - [ ] House Robber
 - [ ] House Robber II
@@ -274,14 +397,17 @@ A job-ready, internship-focused plan.
 - [ ] Target Sum
 - [ ] Decode Ways
 
-## 13. Greedy Algorithms
+---
+
+## Step 13 — Greedy Algorithms
+
 - [ ] Greedy choice property (when it works vs doesn't)
 - [ ] Interval scheduling
 - [ ] Activity selection
 
 **Resources:** [Striver Greedy Playlist](https://www.youtube.com/playlist?list=PLgUwDviBIf0rF6BtM1zBBUrX9wugAo0Ss)
 
-**Practice (7, LeetCode):**
+**Practice (LeetCode):**
 - [ ] Jump Game
 - [ ] Jump Game II
 - [ ] Gas Station
@@ -290,7 +416,10 @@ A job-ready, internship-focused plan.
 - [ ] Partition Labels
 - [ ] Minimum Number of Arrows to Burst Balloons
 
-## 14. Tries & Bit Manipulation (lighter, do last)
+---
+
+## Step 14 — Tries & Bit Manipulation (do last)
+
 - [ ] Trie insert/search/startsWith
 - [ ] AND/OR/XOR tricks
 - [ ] Bit masking basics
@@ -298,7 +427,7 @@ A job-ready, internship-focused plan.
 
 **Resources:** [Striver Trie + Bit Manipulation Playlist](https://www.youtube.com/playlist?list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz)
 
-**Practice (7, LeetCode):**
+**Practice (LeetCode):**
 - [ ] Implement Trie (Prefix Tree)
 - [ ] Word Search II
 - [ ] Single Number
@@ -307,9 +436,13 @@ A job-ready, internship-focused plan.
 - [ ] Counting Bits
 - [ ] Sum of Two Integers
 
-> **What's enough for internship-level interviews:** Phases 0–13 solid, plus Tries/Bit Manipulation basics. No Segment Trees, Dijkstra optimization, or DP-on-trees needed yet.
+**At this point you're internship-interview ready.** Everything below is optional polish only.
 
-## 15. OPTIONAL — Extra Topics (only if time allows)
+---
+
+## Optional Add-Ons (only if time allows, after Step 14)
+
+**DSA Extras:**
 - [ ] Matrix problems: rotate, spiral traversal, set matrix zeroes (revisit)
 - [ ] String algorithms: KMP, Rabin-Karp (concept level)
 - [ ] Advanced graphs: Dijkstra's, MST (Kruskal/Prim)
@@ -317,116 +450,15 @@ A job-ready, internship-focused plan.
 
 **Resources:** [Matrix + Advanced Graph Playlist](https://www.youtube.com/playlist?list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn) · [KMP Algorithm](https://www.youtube.com/watch?v=JoF0Z7nVSrA)
 
-**Practice (7, LeetCode):**
+**Practice:**
 - [ ] Rotate Image
 - [ ] Spiral Matrix
-- [ ] Set Matrix Zeroes (revisit)
 - [ ] strStr() via KMP
 - [ ] Network Delay Time (revisit, Dijkstra)
 - [ ] Min Cost to Connect All Points (MST)
 - [ ] Word Break II (bitmask/DP revisit)
 
-*Genuinely optional — skip if short on time. Won't hurt internship chances. Come back after Phases 0–14 are solid.*
-
----
-
-# PART 2: OBJECT-ORIENTED PROGRAMMING
-
-Do this alongside DSA — lighter, and internships in Pakistan almost always test OOP alongside DSA.
-
-## OOP 1. Core Pillars
-- [ ] Class vs Object
-- [ ] Encapsulation (private fields + getters/setters)
-- [ ] Inheritance (extends, super keyword)
-- [ ] Polymorphism (overloading vs overriding)
-- [ ] Abstraction (abstract classes vs interfaces)
-
-**Resources:** [Kunal Kushwaha OOP Playlist](https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ) · [GfG OOP in Java](https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/)
-
-**Practice (7, write & run locally):**
-- [ ] Bank Account class with encapsulation
-- [ ] Shape hierarchy (Shape → Circle, Square) using inheritance
-- [ ] Overload a method 3 different ways
-- [ ] Override toString() and equals()
-- [ ] Payable interface implemented by Employee and Freelancer
-- [ ] Abstract class vs interface (written explanation)
-- [ ] Animal → Dog/Cat polymorphism with speak()
-
-## OOP 2. Constructors & Keywords
-- [ ] Default vs parameterized constructors
-- [ ] Constructor overloading
-- [ ] this vs super
-- [ ] static keyword (variables, methods, blocks)
-- [ ] final keyword
-
-**Resources:** [GfG Constructors in Java](https://www.geeksforgeeks.org/constructors-in-java/)
-
-**Practice (5, write & run locally):**
-- [ ] Class with 3 overloaded constructors
-- [ ] Use 'this' to resolve naming conflict
-- [ ] Use 'super' to call parent constructor
-- [ ] Static counter tracking objects created
-- [ ] Why is main() static? (written)
-
-## OOP 3. Exception Handling
-- [ ] try-catch-finally
-- [ ] Checked vs unchecked exceptions
-- [ ] Custom exceptions
-- [ ] throw vs throws
-
-**Resources:** [GfG Exception Handling](https://www.geeksforgeeks.org/exceptions-in-java/)
-
-**Practice (5, write & run locally):**
-- [ ] Handle ArithmeticException in a division method
-- [ ] Custom InvalidAgeException
-- [ ] Method throwing checked exception, handled in caller
-- [ ] Use finally to close a resource
-- [ ] Multi-catch handling 2 exception types
-
-## OOP 4. File Handling (basic)
-- [ ] Reading a file with BufferedReader/Scanner
-- [ ] Writing to a file with FileWriter
-- [ ] try-with-resources
-
-**Resources:** [GfG File Handling](https://www.geeksforgeeks.org/file-handling-in-java/)
-
-**Practice (4, write & run locally):**
-- [ ] Read a text file and print each line
-- [ ] Write user input to a file
-- [ ] Append to an existing file
-- [ ] Count number of words in a file
-
-## OOP 5. Java Collections Framework
-- [ ] List (ArrayList, LinkedList)
-- [ ] Set (HashSet, TreeSet)
-- [ ] Map (HashMap, TreeMap)
-- [ ] Iterator
-- [ ] Comparable vs Comparator
-
-**Resources:** [Java Collections crash course](https://www.youtube.com/watch?v=rRi9VmcRs8Y)
-
-**Practice (5, write & run locally):**
-- [ ] Sort list of Student objects by marks (Comparable)
-- [ ] Sort same list by name (Comparator)
-- [ ] Remove duplicates using HashSet
-- [ ] Word frequency using HashMap
-- [ ] Iterate a Map using entrySet()
-
-## OOP 6. Design Basics (SOLID intro)
-- [ ] Single Responsibility Principle (concept)
-- [ ] Open/Closed Principle (concept)
-- [ ] Composition vs Inheritance
-- [ ] Interview Qs: diamond problem, why no multiple inheritance, interface default methods
-
-**Resources:** [SOLID principles simplified](https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/)
-
-**Practice (4, written):**
-- [ ] Why doesn't Java support multiple inheritance via classes?
-- [ ] Refactor a class violating SRP into two smaller classes
-- [ ] Explain composition: Car has-a Engine
-- [ ] List 5 OOP interview questions + your own answers
-
-## OOP 7. OPTIONAL — Java Extras
+**OOP Extras:**
 - [ ] Generics (type-safe classes/methods)
 - [ ] Lambda expressions and Streams API (Java 8+)
 - [ ] Basic multithreading (Thread, Runnable, synchronized)
@@ -435,34 +467,9 @@ Do this alongside DSA — lighter, and internships in Pakistan almost always tes
 
 **Resources:** [Java 8 Streams & Lambdas](https://www.youtube.com/watch?v=Vv9EMTgYzik) · [Java Design Patterns](https://www.geeksforgeeks.org/design-patterns-in-java/)
 
-**Practice (7, write & run locally):**
+**Practice (write & run locally):**
 - [ ] Generic Box<T> class
 - [ ] Filter/map a list of integers using Streams
 - [ ] Sort objects using Stream + Comparator
-- [ ] 2 threads printing numbers alternately (synchronized)
 - [ ] Thread-safe Singleton class
 - [ ] Simple Factory pattern for Shape objects
-- [ ] Stack vs heap memory (written)
-
-*Optional — skip if time is short.*
-
----
-
-# Cloud Computing & DevOps (Parallel Track, Lighter Priority)
-Keep secondary until DSA Phase 8 (Trees) is solid.
-- [ ] Once at Graphs/DP phase: 1–2 hrs/week on AWS Cloud Practitioner basics (free tier + Skill Builder) or Docker fundamentals
-
----
-
-# Realistic 3rd-Semester Timeline
-- **Weeks 1–2:** Phase 0 (Java refresh) + Phase 1 (Complexity) + OOP 1
-- **Weeks 3–5:** Arrays, Searching/Sorting, Strings + OOP 2–3
-- **Weeks 6–8:** Recursion/Backtracking, Linked List + OOP 4–5
-- **Weeks 9–11:** Stack/Queue, Trees + OOP 6
-- **Weeks 12–14:** Heaps, Hashing, Graphs
-- **Weeks 15–16:** Dynamic Programming, Greedy
-- **Week 17+:** Tries/Bit Manipulation + mixed revision + start applying for internships
-
----
-
-**A note on confidence:** No exact number can be promised — interviews depend on the specific questions and how you communicate, not just problems solved. But completing Phases 0–14, genuinely solving (not just reading) every problem, makes your problem-solving ability substantially stronger than most students at this stage. Consistency matters more than any single number.
